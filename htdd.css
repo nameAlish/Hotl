@@ -1,0 +1,129 @@
+body{
+    background: url(../img/fon.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.button{
+ left: 80%;
+ margin-top:30px;
+ position: fixed;
+}
+
+.button a{
+  
+  text-decoration:none;
+  color:black;
+  padding: 10px 30px;
+ background-color: #fac18d;
+ font-size:20px;
+ border-radius: 20px;
+ 
+
+}
+.button a:hover{
+  background-color: #f7351b;
+}
+div.slova{
+  position: fixed;
+   
+  margin-top: 30px;
+  margin-left: 20%;
+  
+  
+}
+.slova a{
+  margin: 0 20px;
+  color:#fff;
+  text-decoration:none;
+
+}
+.slova a:hover{
+  color:#ffdf0f;
+}
+div.soc{
+  
+ height: 40px;
+  width: 40px;
+  position: fixed;
+  left: 120px;
+  margin-top: 19px;
+
+}
+/*MORPH*/
+
+.soc img{
+  width: 40px;
+  border-radius: 14px;
+
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+
+
+}
+
+.soc img:hover{
+ border-radius: 50%;
+
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ transform: rotate(360deg);
+
+}
+div.soce{
+ height: 40px;
+  width: 40px;
+ position: fixed;
+ left: 190px;
+ margin-top: 19px;
+}
+.soce img{
+  width: 40px;
+  border-radius: 14px;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+
+}
+.soce img:hover{
+  border-radius: 50%;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+div.ikonka{ 
+  position: fixed;
+  margin-top:  300px;
+  margin-left: 115px;
+}
+
+.ikonka img{
+ border-radius: 30px;
+ margin:0 40px;
+ transition: transform 1s;
+ width: 200px;
+  border: 2px solid #6b8f8e;
+
+}
+.ikonka img:hover{
+   -webkit-transform:scale(1.3);
+   -ms-transform:scale(1.3);
+   transform: scale(1.3);
+}
+div.text{
+ position: fixed;
+ top:220px;
+ left:170px;
+}
+.text p{
+ font-size: 23px;
+ color:#fff;
+
+}
